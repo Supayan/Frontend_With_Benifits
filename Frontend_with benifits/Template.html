@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Home Page
+        </title>
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkslateblue;
+        }
+        nav{
+            background: cornflowerblue;
+            height: 80px;
+            width: 100%;
+        }
+        label.logo{
+            align-items: center;
+        }
+        nav ul{
+            float: right;
+            margin-right: 20px;
+        }
+        nav ul li{
+            display: inline-block;
+            line-height: 80px;
+            margin: 0px;
+        }
+        nav ul li a{
+            color: white;
+            font-size: 15px;
+            text-transform: uppercase;
+            padding: 8px;
+            border-radius: 5px;
+        }
+        a.active,a:hover{
+            background: rgb(5, 30, 97);
+            transition: .5s;
+
+        }
+    </style>
+    <body>
+        <nav>
+            <label class="logo"><img src="#" alt="AUUN"></label>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Our Research</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>
